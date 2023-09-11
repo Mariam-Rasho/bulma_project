@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .navbar-burger {
+    display: inline-block;
+} */
+
+.is-orange,
+.is-blue {
+    color: #fff;
+    outline: none;
+    border-color: #f39200;
+    background-color: #f39200;
+    transition: all .5s;
+
+}
+
+.is-orange:hover {
+    box-shadow: 0 14px 26px -12px #f392006b, 0 4px 23px #0000001f, 0 8px 10px -5px #f3920033 !important;
+    opacity: .8;
+    color: #fff;
+}
+
+/* .navbar-menu {
+    display: none;
+} */
+
+.background {
+    background-color: #fbfbfb;
+}
+
+hr {
+    background-color: #f39200;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.is-blue {
+    background-color: #72cdee;
+    border-color: #4fc1ea;
+    background-color: #4fc1ea;
+    min-height: 44px;
+    min-width: 140px;
+    border-radius: .65rem;
+}
+
+.is-blue:hover {
+    box-shadow: 0 14px 26px -12px #4fc1ea6b, 0 4px 23px #0000001f, 0 8px 10px -5px #4fc1ea33 !important;
+    opacity: .8;
+    color: #fff;
+}
+
+
+.has-border-rounded {
+    border-radius: 50%;
+    border: 1px solid #e3e3e3;
+    padding: 30px;
+    transition: all 500ms;
+}
+
+.feature-icon:hover .icon {
+    color: #f39200;
+    transform: translateY(-5px);
+    box-shadow: -1px 3px 15px #0000000f;
+}
+
+.background-img {
+    background-image: url("https://source.unsplash.com/g30P1zcOzXo/1600x900");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 200px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.price {
+    position: relative;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #444f60;
+}
+
+.price::before {
+    content: "$";
+    position: relative;
+    top: -12px;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+.price:after {
+    content: "per month";
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #999;
+}
+
+.GET {
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    box-shadow: -1px 3px 15px #0000000f;
+    margin: 8px;
+}
+.GET .button{
+    border-radius: 10px;
+    
+}
+.primary-btn {
+    transition: all .5s;
+    border-radius: 10px;
+    color: white;
+    background-color: #4fc1ea;
+}
+
+.primary-btn:hover {
+    border: none;
+    box-shadow: 0 14px 26px -12px #4fc1ea6b, 0 4px 23px #0000001f, 0 8px 10px -5px #4fc1ea33 !important;
+    color: white;
+}
